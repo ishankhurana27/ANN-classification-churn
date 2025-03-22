@@ -117,7 +117,7 @@ model.save('churn_model.h5')
 
 #%load_ext tensorboard
 
-%tensorboard --logdir logs/fit
+#%tensorboard --logdir logs/fit
 
 # load the pickle file
 import tensorflow as tf
