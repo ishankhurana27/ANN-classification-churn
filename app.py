@@ -115,7 +115,7 @@ model.save('churn_model.h5')
 
 # load tensorboard extension
 
-%load_ext tensorboard
+#%load_ext tensorboard
 
 %tensorboard --logdir logs/fit
 
