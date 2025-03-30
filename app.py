@@ -203,7 +203,7 @@ if prediction_probability>0.5:
 else:
   print('Customer will not leave the bank')
 
-!pip install streamlit
+#!pip install streamlit
 import streamlit as st
 
 # load the trained model
